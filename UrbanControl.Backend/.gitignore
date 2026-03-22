@@ -1,0 +1,16 @@
+﻿## Carpetas de compilación
+[Bb]in/
+[Oo]bj/
+
+## Configuraciones de Visual Studio
+.vs/
+.user
+.suo
+.cache
+
+## Archivos de configuración con credenciales (Base de datos Aiven)
+appsettings.Development.json
+appsettings.json
+
+## Otros
+.DS_Store

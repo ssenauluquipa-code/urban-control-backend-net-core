@@ -85,14 +85,15 @@ builder.Services.AddAuthentication(option =>
     };
 });
 
-builder.Services.AddCors(options =>
+builder.Services.AddCors(options => 
 {
     options.AddPolicy("AllwAngularApp",
         policy =>
         {
-            policy.AllowAnyOrigin() // El puerto de tu Angular
+            policy.WithOrigins("http://localhost:4200","https://urban-control-frontend.vercel.app/") // El puerto de tu Angular
                   .AllowAnyHeader()
-                  .AllowAnyMethod();
+                  .AllowAnyMethod()
+                  .AllowCredentials();
         });
 });
 

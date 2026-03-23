@@ -90,7 +90,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllwAngularApp",
         policy =>
         {
-            policy.WithOrigins("http://localhost:4200") // El puerto de tu Angular
+            policy.AllowAnyOrigin() // El puerto de tu Angular
                   .AllowAnyHeader()
                   .AllowAnyMethod();
         });

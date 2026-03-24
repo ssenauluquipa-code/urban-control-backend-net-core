@@ -90,7 +90,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllwAngularApp",
         policy =>
         {
-            policy.WithOrigins("http://localhost:4200","https://urban-control-frontend.vercel.app/") // El puerto de tu Angular
+            policy.WithOrigins("http://localhost:4200","https://urban-control-frontend.vercel.app","https://whimsical-youtiao-4502b8.netlify.app") // El puerto de tu Angular
                   .AllowAnyHeader()
                   .AllowAnyMethod()
                   .AllowCredentials();

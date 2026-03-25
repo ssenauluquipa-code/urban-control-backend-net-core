@@ -3,8 +3,72 @@
   "WorkspaceRootPath": "C:\\Users\\SAMUEL\\OneDrive - Dima Ltda\\Im\u00E1genes\\PROYECTO URBANIZACION TARIJA\\UrbanControl.Backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6ACEDE68-547B-41F9-B1FD-B2B65C6B5713}|UrbanControl.Backend\\UrbanControl.Backend.csproj|c:\\users\\samuel\\onedrive - dima ltda\\im\u00E1genes\\proyecto urbanizacion tarija\\urbancontrol.backend\\urbancontrol.backend\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{6ACEDE68-547B-41F9-B1FD-B2B65C6B5713}|UrbanControl.Backend\\UrbanControl.Backend.csproj|solutionrelative:urbancontrol.backend\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ACEDE68-547B-41F9-B1FD-B2B65C6B5713}|UrbanControl.Backend\\UrbanControl.Backend.csproj|c:\\users\\samuel\\onedrive - dima ltda\\im\u00E1genes\\proyecto urbanizacion tarija\\urbancontrol.backend\\urbancontrol.backend\\controllers\\access_privilegio\\permisoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ACEDE68-547B-41F9-B1FD-B2B65C6B5713}|UrbanControl.Backend\\UrbanControl.Backend.csproj|solutionrelative:urbancontrol.backend\\controllers\\access_privilegio\\permisoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6ACEDE68-547B-41F9-B1FD-B2B65C6B5713}|UrbanControl.Backend\\UrbanControl.Backend.csproj|c:\\users\\samuel\\onedrive - dima ltda\\im\u00E1genes\\proyecto urbanizacion tarija\\urbancontrol.backend\\urbancontrol.backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6ACEDE68-547B-41F9-B1FD-B2B65C6B5713}|UrbanControl.Backend\\UrbanControl.Backend.csproj|solutionrelative:urbancontrol.backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ACEDE68-547B-41F9-B1FD-B2B65C6B5713}|UrbanControl.Backend\\UrbanControl.Backend.csproj|c:\\users\\samuel\\onedrive - dima ltda\\im\u00E1genes\\proyecto urbanizacion tarija\\urbancontrol.backend\\urbancontrol.backend\\services\\permisosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ACEDE68-547B-41F9-B1FD-B2B65C6B5713}|UrbanControl.Backend\\UrbanControl.Backend.csproj|solutionrelative:urbancontrol.backend\\services\\permisosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ACEDE68-547B-41F9-B1FD-B2B65C6B5713}|UrbanControl.Backend\\UrbanControl.Backend.csproj|c:\\users\\samuel\\onedrive - dima ltda\\im\u00E1genes\\proyecto urbanizacion tarija\\urbancontrol.backend\\urbancontrol.backend\\dtos\\acessos_privilegios\\permisorolupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ACEDE68-547B-41F9-B1FD-B2B65C6B5713}|UrbanControl.Backend\\UrbanControl.Backend.csproj|solutionrelative:urbancontrol.backend\\dtos\\acessos_privilegios\\permisorolupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ACEDE68-547B-41F9-B1FD-B2B65C6B5713}|UrbanControl.Backend\\UrbanControl.Backend.csproj|c:\\users\\samuel\\onedrive - dima ltda\\im\u00E1genes\\proyecto urbanizacion tarija\\urbancontrol.backend\\urbancontrol.backend\\interfaces\\ipermisosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ACEDE68-547B-41F9-B1FD-B2B65C6B5713}|UrbanControl.Backend\\UrbanControl.Backend.csproj|solutionrelative:urbancontrol.backend\\interfaces\\ipermisosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ACEDE68-547B-41F9-B1FD-B2B65C6B5713}|UrbanControl.Backend\\UrbanControl.Backend.csproj|c:\\users\\samuel\\onedrive - dima ltda\\im\u00E1genes\\proyecto urbanizacion tarija\\urbancontrol.backend\\urbancontrol.backend\\dtos\\acessos_privilegios\\permisomatrizdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ACEDE68-547B-41F9-B1FD-B2B65C6B5713}|UrbanControl.Backend\\UrbanControl.Backend.csproj|solutionrelative:urbancontrol.backend\\dtos\\acessos_privilegios\\permisomatrizdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ACEDE68-547B-41F9-B1FD-B2B65C6B5713}|UrbanControl.Backend\\UrbanControl.Backend.csproj|c:\\users\\samuel\\onedrive - dima ltda\\im\u00E1genes\\proyecto urbanizacion tarija\\urbancontrol.backend\\urbancontrol.backend\\dtos\\acessos_privilegios\\submodulodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ACEDE68-547B-41F9-B1FD-B2B65C6B5713}|UrbanControl.Backend\\UrbanControl.Backend.csproj|solutionrelative:urbancontrol.backend\\dtos\\acessos_privilegios\\submodulodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ACEDE68-547B-41F9-B1FD-B2B65C6B5713}|UrbanControl.Backend\\UrbanControl.Backend.csproj|c:\\users\\samuel\\onedrive - dima ltda\\im\u00E1genes\\proyecto urbanizacion tarija\\urbancontrol.backend\\urbancontrol.backend\\dtos\\acessos_privilegios\\permisoacciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ACEDE68-547B-41F9-B1FD-B2B65C6B5713}|UrbanControl.Backend\\UrbanControl.Backend.csproj|solutionrelative:urbancontrol.backend\\dtos\\acessos_privilegios\\permisoacciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SAMUEL\\OneDrive - Dima Ltda\\Im\u00E1genes\\PROYECTO URBANIZACION TARIJA\\UrbanControl.Backend\\UrbanControl.Backend\\Migrations\\20260325065216_AddSistemaPermisosSofisticado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UrbanControl.Backend\\Migrations\\20260325065216_AddSistemaPermisosSofisticado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ACEDE68-547B-41F9-B1FD-B2B65C6B5713}|UrbanControl.Backend\\UrbanControl.Backend.csproj|c:\\users\\samuel\\onedrive - dima ltda\\im\u00E1genes\\proyecto urbanizacion tarija\\urbancontrol.backend\\urbancontrol.backend\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ACEDE68-547B-41F9-B1FD-B2B65C6B5713}|UrbanControl.Backend\\UrbanControl.Backend.csproj|solutionrelative:urbancontrol.backend\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ACEDE68-547B-41F9-B1FD-B2B65C6B5713}|UrbanControl.Backend\\UrbanControl.Backend.csproj|c:\\users\\samuel\\onedrive - dima ltda\\im\u00E1genes\\proyecto urbanizacion tarija\\urbancontrol.backend\\urbancontrol.backend\\models\\access_privilegios\\modulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ACEDE68-547B-41F9-B1FD-B2B65C6B5713}|UrbanControl.Backend\\UrbanControl.Backend.csproj|solutionrelative:urbancontrol.backend\\models\\access_privilegios\\modulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ACEDE68-547B-41F9-B1FD-B2B65C6B5713}|UrbanControl.Backend\\UrbanControl.Backend.csproj|c:\\users\\samuel\\onedrive - dima ltda\\im\u00E1genes\\proyecto urbanizacion tarija\\urbancontrol.backend\\urbancontrol.backend\\models\\access_privilegios\\permisorol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ACEDE68-547B-41F9-B1FD-B2B65C6B5713}|UrbanControl.Backend\\UrbanControl.Backend.csproj|solutionrelative:urbancontrol.backend\\models\\access_privilegios\\permisorol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ACEDE68-547B-41F9-B1FD-B2B65C6B5713}|UrbanControl.Backend\\UrbanControl.Backend.csproj|c:\\users\\samuel\\onedrive - dima ltda\\im\u00E1genes\\proyecto urbanizacion tarija\\urbancontrol.backend\\urbancontrol.backend\\models\\access_privilegios\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ACEDE68-547B-41F9-B1FD-B2B65C6B5713}|UrbanControl.Backend\\UrbanControl.Backend.csproj|solutionrelative:urbancontrol.backend\\models\\access_privilegios\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ACEDE68-547B-41F9-B1FD-B2B65C6B5713}|UrbanControl.Backend\\UrbanControl.Backend.csproj|c:\\users\\samuel\\onedrive - dima ltda\\im\u00E1genes\\proyecto urbanizacion tarija\\urbancontrol.backend\\urbancontrol.backend\\models\\access_privilegios\\submodulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ACEDE68-547B-41F9-B1FD-B2B65C6B5713}|UrbanControl.Backend\\UrbanControl.Backend.csproj|solutionrelative:urbancontrol.backend\\models\\access_privilegios\\submodulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ACEDE68-547B-41F9-B1FD-B2B65C6B5713}|UrbanControl.Backend\\UrbanControl.Backend.csproj|c:\\users\\samuel\\onedrive - dima ltda\\im\u00E1genes\\proyecto urbanizacion tarija\\urbancontrol.backend\\urbancontrol.backend\\models\\access_privilegios\\tipopermiso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ACEDE68-547B-41F9-B1FD-B2B65C6B5713}|UrbanControl.Backend\\UrbanControl.Backend.csproj|solutionrelative:urbancontrol.backend\\models\\access_privilegios\\tipopermiso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ACEDE68-547B-41F9-B1FD-B2B65C6B5713}|UrbanControl.Backend\\UrbanControl.Backend.csproj|c:\\users\\samuel\\onedrive - dima ltda\\im\u00E1genes\\proyecto urbanizacion tarija\\urbancontrol.backend\\urbancontrol.backend\\models\\access_privilegios\\capacidadsubmodulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ACEDE68-547B-41F9-B1FD-B2B65C6B5713}|UrbanControl.Backend\\UrbanControl.Backend.csproj|solutionrelative:urbancontrol.backend\\models\\access_privilegios\\capacidadsubmodulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +87,222 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\SAMUEL\\OneDrive - Dima Ltda\\Im\u00E1genes\\PROYECTO URBANIZACION TARIJA\\UrbanControl.Backend\\UrbanControl.Backend\\.gitignore",
+              "RelativeDocumentMoniker": "UrbanControl.Backend\\.gitignore",
+              "ToolTip": "C:\\Users\\SAMUEL\\OneDrive - Dima Ltda\\Im\u00E1genes\\PROYECTO URBANIZACION TARIJA\\UrbanControl.Backend\\UrbanControl.Backend\\.gitignore",
+              "RelativeToolTip": "UrbanControl.Backend\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF8SURBVDhPjVNLTgJBEG1lwpoFB3GNK9fieA48hD8iwT/ihwgSDAIHgAGXXsEV18CNzL/LquqZdsYM6kteXqcy3fWqpmpNRBgOhyABBEgpAFVKPIMUcYzUyOU\u002BXM/b2qtU3vkSfRjjZTCAMAw1A2LwzdFoBPP5HNqdzuL27n4juibWI\u002BUshBA1DIkhEx9iEorFotgslQqGYbxxAGFEqt1MxmPWJLbLZdZ\u002Bv89q5PMFPiTR6z2zdaxR0fXA0XTBcVywkb4fwHXjRteecIDNQ7UmExVYAdPcxYaqclN46na5WenMKjtlVnTYwcXlVYaDqImW9beD5N/TeGy32QHXm6hZ03ZgiSQHp2fnWQ4oBmJqWSqwAqZpZjt4aLXAD4J0VqyZsmoubfB8H2r1eoaD6NXZ9HcHO\u002BSA3f4AjifXl8rItOETM8ckB9WTWpYD9RdeZ1PWVWAHWXPQaDb59f/w8LiqHeh1pvGkCaP6qB8yXusoxmuNZ7XmII4O9vGuEF86osuDYRkpYQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2026-03-25T07:23:21.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PermisosController.cs",
+              "DocumentMoniker": "C:\\Users\\SAMUEL\\OneDrive - Dima Ltda\\Im\u00E1genes\\PROYECTO URBANIZACION TARIJA\\UrbanControl.Backend\\UrbanControl.Backend\\Controllers\\access_privilegio\\PermisosController.cs",
+              "RelativeDocumentMoniker": "UrbanControl.Backend\\Controllers\\access_privilegio\\PermisosController.cs",
+              "ToolTip": "C:\\Users\\SAMUEL\\OneDrive - Dima Ltda\\Im\u00E1genes\\PROYECTO URBANIZACION TARIJA\\UrbanControl.Backend\\UrbanControl.Backend\\Controllers\\access_privilegio\\PermisosController.cs",
+              "RelativeToolTip": "UrbanControl.Backend\\Controllers\\access_privilegio\\PermisosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T07:05:14.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PermisosService.cs",
+              "DocumentMoniker": "C:\\Users\\SAMUEL\\OneDrive - Dima Ltda\\Im\u00E1genes\\PROYECTO URBANIZACION TARIJA\\UrbanControl.Backend\\UrbanControl.Backend\\Services\\PermisosService.cs",
+              "RelativeDocumentMoniker": "UrbanControl.Backend\\Services\\PermisosService.cs",
+              "ToolTip": "C:\\Users\\SAMUEL\\OneDrive - Dima Ltda\\Im\u00E1genes\\PROYECTO URBANIZACION TARIJA\\UrbanControl.Backend\\UrbanControl.Backend\\Services\\PermisosService.cs",
+              "RelativeToolTip": "UrbanControl.Backend\\Services\\PermisosService.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAABYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T07:02:57.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PermisoRolUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\SAMUEL\\OneDrive - Dima Ltda\\Im\u00E1genes\\PROYECTO URBANIZACION TARIJA\\UrbanControl.Backend\\UrbanControl.Backend\\DTOs\\acessos_privilegios\\PermisoRolUpdateDto.cs",
+              "RelativeDocumentMoniker": "UrbanControl.Backend\\DTOs\\acessos_privilegios\\PermisoRolUpdateDto.cs",
+              "ToolTip": "C:\\Users\\SAMUEL\\OneDrive - Dima Ltda\\Im\u00E1genes\\PROYECTO URBANIZACION TARIJA\\UrbanControl.Backend\\UrbanControl.Backend\\DTOs\\acessos_privilegios\\PermisoRolUpdateDto.cs",
+              "RelativeToolTip": "UrbanControl.Backend\\DTOs\\acessos_privilegios\\PermisoRolUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T07:02:15.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IPermisosService.cs",
+              "DocumentMoniker": "C:\\Users\\SAMUEL\\OneDrive - Dima Ltda\\Im\u00E1genes\\PROYECTO URBANIZACION TARIJA\\UrbanControl.Backend\\UrbanControl.Backend\\Interfaces\\IPermisosService.cs",
+              "RelativeDocumentMoniker": "UrbanControl.Backend\\Interfaces\\IPermisosService.cs",
+              "ToolTip": "C:\\Users\\SAMUEL\\OneDrive - Dima Ltda\\Im\u00E1genes\\PROYECTO URBANIZACION TARIJA\\UrbanControl.Backend\\UrbanControl.Backend\\Interfaces\\IPermisosService.cs",
+              "RelativeToolTip": "UrbanControl.Backend\\Interfaces\\IPermisosService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T07:01:37.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PermisoMatrizDto.cs",
+              "DocumentMoniker": "C:\\Users\\SAMUEL\\OneDrive - Dima Ltda\\Im\u00E1genes\\PROYECTO URBANIZACION TARIJA\\UrbanControl.Backend\\UrbanControl.Backend\\DTOs\\acessos_privilegios\\PermisoMatrizDto.cs",
+              "RelativeDocumentMoniker": "UrbanControl.Backend\\DTOs\\acessos_privilegios\\PermisoMatrizDto.cs",
+              "ToolTip": "C:\\Users\\SAMUEL\\OneDrive - Dima Ltda\\Im\u00E1genes\\PROYECTO URBANIZACION TARIJA\\UrbanControl.Backend\\UrbanControl.Backend\\DTOs\\acessos_privilegios\\PermisoMatrizDto.cs",
+              "RelativeToolTip": "UrbanControl.Backend\\DTOs\\acessos_privilegios\\PermisoMatrizDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T06:59:10.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\SAMUEL\\OneDrive - Dima Ltda\\Im\u00E1genes\\PROYECTO URBANIZACION TARIJA\\UrbanControl.Backend\\UrbanControl.Backend\\Program.cs",
               "RelativeDocumentMoniker": "UrbanControl.Backend\\Program.cs",
               "ToolTip": "C:\\Users\\SAMUEL\\OneDrive - Dima Ltda\\Im\u00E1genes\\PROYECTO URBANIZACION TARIJA\\UrbanControl.Backend\\UrbanControl.Backend\\Program.cs",
               "RelativeToolTip": "UrbanControl.Backend\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACIAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-23T01:38:44.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SubmoduloDto.cs",
+              "DocumentMoniker": "C:\\Users\\SAMUEL\\OneDrive - Dima Ltda\\Im\u00E1genes\\PROYECTO URBANIZACION TARIJA\\UrbanControl.Backend\\UrbanControl.Backend\\DTOs\\acessos_privilegios\\SubmoduloDto.cs",
+              "RelativeDocumentMoniker": "UrbanControl.Backend\\DTOs\\acessos_privilegios\\SubmoduloDto.cs",
+              "ToolTip": "C:\\Users\\SAMUEL\\OneDrive - Dima Ltda\\Im\u00E1genes\\PROYECTO URBANIZACION TARIJA\\UrbanControl.Backend\\UrbanControl.Backend\\DTOs\\acessos_privilegios\\SubmoduloDto.cs",
+              "RelativeToolTip": "UrbanControl.Backend\\DTOs\\acessos_privilegios\\SubmoduloDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T06:58:53.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PermisoAccionDto.cs",
+              "DocumentMoniker": "C:\\Users\\SAMUEL\\OneDrive - Dima Ltda\\Im\u00E1genes\\PROYECTO URBANIZACION TARIJA\\UrbanControl.Backend\\UrbanControl.Backend\\DTOs\\acessos_privilegios\\PermisoAccionDto.cs",
+              "RelativeDocumentMoniker": "UrbanControl.Backend\\DTOs\\acessos_privilegios\\PermisoAccionDto.cs",
+              "ToolTip": "C:\\Users\\SAMUEL\\OneDrive - Dima Ltda\\Im\u00E1genes\\PROYECTO URBANIZACION TARIJA\\UrbanControl.Backend\\UrbanControl.Backend\\DTOs\\acessos_privilegios\\PermisoAccionDto.cs",
+              "RelativeToolTip": "UrbanControl.Backend\\DTOs\\acessos_privilegios\\PermisoAccionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T06:58:33.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20260325065216_AddSistemaPermisosSofisticado.cs",
+              "DocumentMoniker": "C:\\Users\\SAMUEL\\OneDrive - Dima Ltda\\Im\u00E1genes\\PROYECTO URBANIZACION TARIJA\\UrbanControl.Backend\\UrbanControl.Backend\\Migrations\\20260325065216_AddSistemaPermisosSofisticado.cs",
+              "RelativeDocumentMoniker": "UrbanControl.Backend\\Migrations\\20260325065216_AddSistemaPermisosSofisticado.cs",
+              "ToolTip": "C:\\Users\\SAMUEL\\OneDrive - Dima Ltda\\Im\u00E1genes\\PROYECTO URBANIZACION TARIJA\\UrbanControl.Backend\\UrbanControl.Backend\\Migrations\\20260325065216_AddSistemaPermisosSofisticado.cs",
+              "RelativeToolTip": "UrbanControl.Backend\\Migrations\\20260325065216_AddSistemaPermisosSofisticado.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T06:52:17.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\SAMUEL\\OneDrive - Dima Ltda\\Im\u00E1genes\\PROYECTO URBANIZACION TARIJA\\UrbanControl.Backend\\UrbanControl.Backend\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "UrbanControl.Backend\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\SAMUEL\\OneDrive - Dima Ltda\\Im\u00E1genes\\PROYECTO URBANIZACION TARIJA\\UrbanControl.Backend\\UrbanControl.Backend\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "UrbanControl.Backend\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T06:44:30.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Modulo.cs",
+              "DocumentMoniker": "C:\\Users\\SAMUEL\\OneDrive - Dima Ltda\\Im\u00E1genes\\PROYECTO URBANIZACION TARIJA\\UrbanControl.Backend\\UrbanControl.Backend\\Models\\access_privilegios\\Modulo.cs",
+              "RelativeDocumentMoniker": "UrbanControl.Backend\\Models\\access_privilegios\\Modulo.cs",
+              "ToolTip": "C:\\Users\\SAMUEL\\OneDrive - Dima Ltda\\Im\u00E1genes\\PROYECTO URBANIZACION TARIJA\\UrbanControl.Backend\\UrbanControl.Backend\\Models\\access_privilegios\\Modulo.cs",
+              "RelativeToolTip": "UrbanControl.Backend\\Models\\access_privilegios\\Modulo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T06:43:54.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Submodulo.cs",
+              "DocumentMoniker": "C:\\Users\\SAMUEL\\OneDrive - Dima Ltda\\Im\u00E1genes\\PROYECTO URBANIZACION TARIJA\\UrbanControl.Backend\\UrbanControl.Backend\\Models\\access_privilegios\\Submodulo.cs",
+              "RelativeDocumentMoniker": "UrbanControl.Backend\\Models\\access_privilegios\\Submodulo.cs",
+              "ToolTip": "C:\\Users\\SAMUEL\\OneDrive - Dima Ltda\\Im\u00E1genes\\PROYECTO URBANIZACION TARIJA\\UrbanControl.Backend\\UrbanControl.Backend\\Models\\access_privilegios\\Submodulo.cs",
+              "RelativeToolTip": "UrbanControl.Backend\\Models\\access_privilegios\\Submodulo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T06:43:33.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TipoPermiso.cs",
+              "DocumentMoniker": "C:\\Users\\SAMUEL\\OneDrive - Dima Ltda\\Im\u00E1genes\\PROYECTO URBANIZACION TARIJA\\UrbanControl.Backend\\UrbanControl.Backend\\Models\\access_privilegios\\TipoPermiso.cs",
+              "RelativeDocumentMoniker": "UrbanControl.Backend\\Models\\access_privilegios\\TipoPermiso.cs",
+              "ToolTip": "C:\\Users\\SAMUEL\\OneDrive - Dima Ltda\\Im\u00E1genes\\PROYECTO URBANIZACION TARIJA\\UrbanControl.Backend\\UrbanControl.Backend\\Models\\access_privilegios\\TipoPermiso.cs",
+              "RelativeToolTip": "UrbanControl.Backend\\Models\\access_privilegios\\TipoPermiso.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T06:43:03.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CapacidadSubmodulo.cs",
+              "DocumentMoniker": "C:\\Users\\SAMUEL\\OneDrive - Dima Ltda\\Im\u00E1genes\\PROYECTO URBANIZACION TARIJA\\UrbanControl.Backend\\UrbanControl.Backend\\Models\\access_privilegios\\CapacidadSubmodulo.cs",
+              "RelativeDocumentMoniker": "UrbanControl.Backend\\Models\\access_privilegios\\CapacidadSubmodulo.cs",
+              "ToolTip": "C:\\Users\\SAMUEL\\OneDrive - Dima Ltda\\Im\u00E1genes\\PROYECTO URBANIZACION TARIJA\\UrbanControl.Backend\\UrbanControl.Backend\\Models\\access_privilegios\\CapacidadSubmodulo.cs",
+              "RelativeToolTip": "UrbanControl.Backend\\Models\\access_privilegios\\CapacidadSubmodulo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T06:42:42.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PermisoRol.cs",
+              "DocumentMoniker": "C:\\Users\\SAMUEL\\OneDrive - Dima Ltda\\Im\u00E1genes\\PROYECTO URBANIZACION TARIJA\\UrbanControl.Backend\\UrbanControl.Backend\\Models\\access_privilegios\\PermisoRol.cs",
+              "RelativeDocumentMoniker": "UrbanControl.Backend\\Models\\access_privilegios\\PermisoRol.cs",
+              "ToolTip": "C:\\Users\\SAMUEL\\OneDrive - Dima Ltda\\Im\u00E1genes\\PROYECTO URBANIZACION TARIJA\\UrbanControl.Backend\\UrbanControl.Backend\\Models\\access_privilegios\\PermisoRol.cs",
+              "RelativeToolTip": "UrbanControl.Backend\\Models\\access_privilegios\\PermisoRol.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T06:41:56.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Rol.cs",
+              "DocumentMoniker": "C:\\Users\\SAMUEL\\OneDrive - Dima Ltda\\Im\u00E1genes\\PROYECTO URBANIZACION TARIJA\\UrbanControl.Backend\\UrbanControl.Backend\\Models\\access_privilegios\\Rol.cs",
+              "RelativeDocumentMoniker": "UrbanControl.Backend\\Models\\access_privilegios\\Rol.cs",
+              "ToolTip": "C:\\Users\\SAMUEL\\OneDrive - Dima Ltda\\Im\u00E1genes\\PROYECTO URBANIZACION TARIJA\\UrbanControl.Backend\\UrbanControl.Backend\\Models\\access_privilegios\\Rol.cs",
+              "RelativeToolTip": "UrbanControl.Backend\\Models\\access_privilegios\\Rol.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T06:41:22.01Z",
               "EditorCaption": ""
             }
           ]

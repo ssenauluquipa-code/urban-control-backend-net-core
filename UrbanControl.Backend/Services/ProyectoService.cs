@@ -1,11 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using UrbanControl.Backend.Data;
 using UrbanControl.Backend.DTOs;
+using UrbanControl.Backend.DTOs.proyecto;
 using UrbanControl.Backend.Models;
 
 namespace UrbanControl.Backend.Services
 {
-    public class ProyectoService :IProyectoService
+    public class ProyectoService : IProyectoService
     {
         private readonly ApplicationDbContext _context;
         public ProyectoService(ApplicationDbContext context) => _context = context;
@@ -47,5 +48,17 @@ namespace UrbanControl.Backend.Services
                 RecaudacionPotencial = proyecto.Lotes.Sum(l => l.SuperficieM2 * proyecto.PrecioBaseM2)
             };
         }
+
+        //lookup para dropdowns
+        public async Task<IEnumerable<ProyectoLookupDto>> GetProyectosLookupAsync()
+        {
+            return await _context.Proyectos.OrderBy(p => p.Nombre).Select(p => new ProyectoLookupDto
+            {
+                Id = p.Id,
+                Name = p.Nombre
+            }).ToListAsync();
+        }
+
+
     }
 }

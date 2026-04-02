@@ -35,7 +35,7 @@ namespace UrbanControl.Backend.Controllers
                 return BadRequest(ModelState);
 
             var nuevoProyecto = await _proyectoService.CreateAsync(proyectoDto);
-
+            
             return CreatedAtAction(nameof(GetProyectos), new { id = nuevoProyecto.Id }, nuevoProyecto);
         }
         // NUEVO ENDPOINT PARA EL REPORTE
@@ -48,6 +48,13 @@ namespace UrbanControl.Backend.Controllers
                 return NotFound($"No se encontró la urbanización con ID: {id}");
 
             return Ok(reporte);
+        }
+
+        [HttpGet("lookup")]
+        public async Task<IActionResult> GetLookup()
+        {
+            var result = await _proyectoService.GetProyectosLookupAsync();
+            return Ok(result);
         }
     }
 }

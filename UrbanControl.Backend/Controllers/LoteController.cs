@@ -39,7 +39,7 @@ namespace UrbanControl.Backend.Controllers
 
             var resultado = await _loteService.CambiarEstadoAsync(id, dto.Estado);
             if (!resultado) return NotFound("Lote no encontrado");
-            return Ok("Estado actualizado");
+            return Ok(new { message = "Estado actualizado" });
         }
 
         [HttpPut("{id}")]

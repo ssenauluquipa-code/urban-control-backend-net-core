@@ -12,6 +12,7 @@ namespace UrbanControl.Backend.Data
 
         public DbSet<User> Users { get; set; }
         public DbSet<Proyecto> Proyectos { get; set; }
+        public DbSet<Manzana> Manzanas { get; set; }
         public DbSet<Lote> Lotes { get; set; }
         public DbSet<Cliente> Clientes { get; set; }
         public DbSet<Reserva> Reservas { get; set; }
@@ -26,6 +27,30 @@ namespace UrbanControl.Backend.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+            // 1. Configuración de Lotes (Enum como String y Precisión)
+            modelBuilder.Entity<Lote>(entity =>
+            {
+                // Guardar Enum como texto en la DB
+                entity.Property(l => l.Estado)
+                    .HasConversion<string>()
+                    .HasMaxLength(20);
+
+                // Precisión para decimales
+                entity.Property(l => l.SuperficieM2)
+                    .HasPrecision(18, 2);
+
+                // Índice único para el código de mapa (opcional, pero recomendado)
+                entity.HasIndex(l => l.MapCode).IsUnique().HasFilter("[MapCode] IS NOT NULL");
+            });
+            // 2. Configuración de Proyectos (Precisión Decimal)
+            modelBuilder.Entity<Proyecto>(entity =>
+            {
+                entity.Property(p => p.PrecioBaseM2)
+                    .HasPrecision(18, 2);
+            });
+            // 3. Claves Únicas para acceso (Ya las tenías, las mantenemos)
+            modelBuilder.Entity<CapacidadSubmodulo>()
+                .HasIndex(c => new { c.SubmoduloId, c.TipoPermisoId }).IsUnique();
 
             // Claves Únicas para evitar duplicidad de lógica
             modelBuilder.Entity<CapacidadSubmodulo>()

@@ -12,7 +12,7 @@ namespace UrbanControl.Backend.Services
         public ProyectoService(ApplicationDbContext context) => _context = context;
 
         public async Task<List<Proyecto>> GetAllAsync() => await _context.Proyectos
-            .Include(p => p.Lotes).ToListAsync();
+            .Include(p => p.Manzanas).ToListAsync();
 
         public async Task<Proyecto> CreateAsync(ProyectoDto dto)
         {
@@ -30,22 +30,25 @@ namespace UrbanControl.Backend.Services
         {
             // Buscamos el proyecto con sus lotes cargados
             var proyecto = await _context.Proyectos
-                .Include(p => p.Lotes)
+                .Include(p => p.Manzanas)
                 .FirstOrDefaultAsync(p => p.Id == proyectoId);
 
             if (proyecto == null) return null;
 
+            // CORRECCIÓN: Obtenemos la lista plana de todos los lotes de todas las manzanas
+            var todosLosLotes = proyecto.Manzanas.SelectMany(m => m.Lotes).ToList();
             // Construimos el DTO con los cálculos
             return new ReporteProyectoDto
             {
                 ProyectoNombre = proyecto.Nombre,
-                TotalLotes = proyecto.Lotes.Count,
-                Disponibles = proyecto.Lotes.Count(l => l.Estado == "Disponible"),
-                Reservados = proyecto.Lotes.Count(l => l.Estado == "Reservado"),
-                Vendidos = proyecto.Lotes.Count(l => l.Estado == "Vendido"),
+                TotalLotes = todosLosLotes.Count,
 
-                // Cálculo financiero: Suma de (Superficie * PrecioBase) de todos sus lotes
-                RecaudacionPotencial = proyecto.Lotes.Sum(l => l.SuperficieM2 * proyecto.PrecioBaseM2)
+                // CORRECCIÓN: Usamos el Enum para filtrar
+                Disponibles = todosLosLotes.Count(l => l.Estado == EstadoLote.Disponible),
+                Reservados = todosLosLotes.Count(l => l.Estado == EstadoLote.Reservado),
+                Vendidos = todosLosLotes.Count(l => l.Estado == EstadoLote.Vendido),
+
+                RecaudacionPotencial = todosLosLotes.Sum(l => l.SuperficieM2 * proyecto.PrecioBaseM2)
             };
         }
 

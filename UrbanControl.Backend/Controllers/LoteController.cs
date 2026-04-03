@@ -35,8 +35,6 @@ namespace UrbanControl.Backend.Controllers
         [HttpPatch("{id}/estado")]
         public async Task<IActionResult> UpdateEstado(Guid id, [FromBody] LoteEstadoDTO dto)
         {
-            if(string.IsNullOrEmpty(dto.Estado)) return BadRequest("El estado no puede ser nulo o vacío");
-
             var resultado = await _loteService.CambiarEstadoAsync(id, dto.Estado);
             if (!resultado) return NotFound("Lote no encontrado");
             return Ok(new { message = "Estado actualizado" });

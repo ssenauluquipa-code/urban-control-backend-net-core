@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace UrbanControl.Backend.Models
 {
@@ -6,12 +7,18 @@ namespace UrbanControl.Backend.Models
     {
         [Key]
         public Guid Id { get; set; } = Guid.NewGuid();
+
         [Required]
         public string Nombre { get; set; } = string.Empty;
         public string Ubicacion { get; set; } = string.Empty;
+
+        [Column(TypeName = "decimal(18,2)")]
         public decimal PrecioBaseM2 { get; set; }
 
-        // Relación: Un proyecto tiene muchos lotes
-        public ICollection<Lote> Lotes { get; set; } = new List<Lote>();
+        public string? UrlImagenPlano { get; set; }
+        public string? ConfigMapa { get; set; } // JSON (zoom, centro)
+
+        // Relación: Un proyecto tiene muchas manzanas
+        public ICollection<Manzana> Manzanas { get; set; } = new List<Manzana>();
     }
 }

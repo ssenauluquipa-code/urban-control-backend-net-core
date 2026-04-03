@@ -14,7 +14,7 @@ namespace UrbanControl.Backend.Services
         {
             // 1. Buscar el lote y verificar disponibilidad
             var lote = await _context.Lotes.FindAsync(dto.LoteId);
-            if (lote == null || lote.Estado != "Disponible") return null;
+            if (lote == null || lote.Estado != EstadoLote.Disponible) return null;
 
             // 2. Iniciar transacción (opcional pero recomendado)
             using var transaction = await _context.Database.BeginTransactionAsync();
@@ -30,7 +30,7 @@ namespace UrbanControl.Backend.Services
                 };
 
                 // 4. Actualizar estado del lote
-                lote.Estado = "Reservado";
+                lote.Estado = EstadoLote.Reservado;
 
                 _context.Reservas.Add(reserva);
                 await _context.SaveChangesAsync();

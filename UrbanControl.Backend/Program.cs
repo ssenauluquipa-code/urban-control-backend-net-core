@@ -117,4 +117,20 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    try
+    {
+        var context = services.GetRequiredService<ApplicationDbContext>();
+        // Llamamos al método estático que creamos
+        await DbSeeder.SeedAsync(context);
+        Console.WriteLine("--- Semilla de datos ejecutada con éxito ---");
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"--- Error al ejecutar el Seeding: {ex.Message} ---");
+    }
+}
+
 app.Run();

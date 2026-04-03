@@ -1,7 +1,9 @@
-﻿namespace UrbanControl.Backend.DTOs.lotes
+﻿using UrbanControl.Backend.Models;
+
+namespace UrbanControl.Backend.DTOs.lotes
 {
     public class LoteEstadoDTO
     {
-        public string Estado { get; set; }
+        public EstadoLote Estado { get; set; }
     }
 }

@@ -7,16 +7,21 @@ namespace UrbanControl.Backend.Models
     {
         [Key]
         public Guid Id { get; set; } = Guid.NewGuid();
+
         [Required]
         public string NumeroLote { get; set; } = string.Empty;
-        [Required]
-        public string Manzana { get; set; } = string.Empty;
-        public decimal SuperficieM2 { get; set; }
-        public string Estado { get; set; } = "Disponible"; // Disponible, Reservado, Vendido
 
-        // Clave foránea hacia Proyecto
-        public Guid ProyectoId { get; set; }
-        [ForeignKey("ProyectoId")]
-        public Proyecto? Proyecto { get; set; }
+        [Column(TypeName = "decimal(18,2)")]
+        public decimal SuperficieM2 { get; set; }
+
+        // 💡 Usamos el Enum que creamos anteriormente
+        public EstadoLote Estado { get; set; } = EstadoLote.Disponible;
+
+        public string? Geometria { get; set; }
+        public string? MapCode { get; set; }
+
+        public Guid ManzanaId { get; set; }
+        [ForeignKey("ManzanaId")]
+        public Manzana? Manzana { get; set; }
     }
 }

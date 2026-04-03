@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using UrbanControl.Backend.DTOs;
+using UrbanControl.Backend.DTOs.lotes;
 using UrbanControl.Backend.Services;
 
 namespace UrbanControl.Backend.Controllers
@@ -32,9 +33,11 @@ namespace UrbanControl.Backend.Controllers
         }
 
         [HttpPatch("{id}/estado")]
-        public async Task<IActionResult> UpdateEstado(Guid id, [FromBody] string nuevoEstado)
+        public async Task<IActionResult> UpdateEstado(Guid id, [FromBody] LoteEstadoDTO dto)
         {
-            var resultado = await _loteService.CambiarEstadoAsync(id, nuevoEstado);
+            if(string.IsNullOrEmpty(dto.Estado)) return BadRequest("El estado no puede ser nulo o vacío");
+
+            var resultado = await _loteService.CambiarEstadoAsync(id, dto.Estado);
             if (!resultado) return NotFound("Lote no encontrado");
             return Ok("Estado actualizado");
         }

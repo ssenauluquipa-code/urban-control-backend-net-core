@@ -43,5 +43,19 @@ namespace UrbanControl.Backend.Services
             await _context.SaveChangesAsync();
             return true;
         }
+
+        public async Task<bool> UpdateLoteAsync(Guid id, LoteDto loteDto)
+        {
+            var lote = await _context.Lotes.FindAsync(id);
+
+            if (lote == null) return false;
+
+            lote.NumeroLote = loteDto.NumeroLote;
+            lote.Manzana = loteDto.Manzana;
+            lote.SuperficieM2 = loteDto.SuperficieM2;
+            lote.ProyectoId = loteDto.ProyectoId;
+            _context.Lotes.Update(lote);
+            return await _context.SaveChangesAsync() > 0;
+        }
     }
 }

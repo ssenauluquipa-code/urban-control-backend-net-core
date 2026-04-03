@@ -8,5 +8,7 @@ namespace UrbanControl.Backend.Services
         Task<List<Lote>> GetLotesByProyectoAsync(Guid proyectoId);
         Task<Lote> CreateLoteAsync(LoteDto dto);
         Task<bool> CambiarEstadoAsync(Guid loteId, string nuevoEstado);
+
+        Task<bool> UpdateLoteAsync(Guid id, LoteDto loteDto);
     }
 }

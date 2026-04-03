@@ -38,5 +38,25 @@ namespace UrbanControl.Backend.Controllers
             if (!resultado) return NotFound("Lote no encontrado");
             return Ok("Estado actualizado");
         }
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> Update(Guid id, LoteDto loteDto)
+        {
+            if (loteDto == null) return BadRequest("Los datos del lote son nulos");
+            try
+            {
+                var actualizado = await _loteService.UpdateLoteAsync(id, loteDto);
+                if (!actualizado)
+                {
+                    return NotFound($"No se encontró el lote con el ID {id} para actualizar.");
+                }
+                return Ok(new { message = "Lote actualizado existosamente" });
+            }
+            catch (Exception ex)
+            {
+                // Log the exception (ex) here if you have a logging mechanism
+                return StatusCode(500, $"Ocurrió un error al actualizar el lote: {ex.Message}");
+            }
+        }
     }
 }

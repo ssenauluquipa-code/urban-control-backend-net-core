@@ -54,6 +54,7 @@ namespace UrbanControl.Backend.Services
             lote.Manzana = loteDto.Manzana;
             lote.SuperficieM2 = loteDto.SuperficieM2;
             lote.ProyectoId = loteDto.ProyectoId;
+            lote.Estado = loteDto.Estado;
             _context.Lotes.Update(lote);
             return await _context.SaveChangesAsync() > 0;
         }

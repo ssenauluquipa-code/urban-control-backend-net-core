@@ -14,7 +14,7 @@ namespace UrbanControl.Backend.Services
         {
             return await _context.Lotes
                 .Include(l => l.Proyecto)
-                .Where(l => l.ProyectoId == proyectoId)
+                .Where(l => l.ProyectoId == proyectoId && l.Estado != "Eliminado")
                 .ToListAsync();
         }
 

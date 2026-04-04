@@ -32,6 +32,8 @@ builder.Services.AddScoped<ILoteService, LoteService>();
 builder.Services.AddScoped<IClienteService, ClienteService>();
 builder.Services.AddScoped<IReservaService, ReservaService>();
 
+builder.Services.AddScoped<IEmpresaService, EmpresaService>();
+
 builder.Services.AddScoped<IPermisosService, PermisosService>();
 builder.Services.AddSwaggerGen(c =>
 {

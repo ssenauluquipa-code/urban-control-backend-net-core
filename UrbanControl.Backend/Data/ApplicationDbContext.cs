@@ -10,6 +10,7 @@ namespace UrbanControl.Backend.Data
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         { }
 
+        public DbSet<EmpresaConfig> EmpresaConfigs { get; set; }
         public DbSet<User> Users { get; set; }
         public DbSet<Proyecto> Proyectos { get; set; }
         public DbSet<Manzana> Manzanas { get; set; }
@@ -59,6 +60,11 @@ namespace UrbanControl.Backend.Data
             modelBuilder.Entity<PermisoRol>()
                 .HasIndex(p => new { p.RolId, p.CapacidadSubmoduloId }).IsUnique();
 
+            modelBuilder.Entity<EmpresaConfig>(entity => {
+                entity.HasKey(e => e.Id);
+                entity.Property(e => e.NombreComercial).IsRequired().HasMaxLength(100);
+                entity.Property(e => e.Nit).IsRequired().HasMaxLength(20);
+            });
             // --- SEED DATA ---
 
             // 1. Tipos de Permisos
